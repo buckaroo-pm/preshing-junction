@@ -1,0 +1,17 @@
+manifest = "d6bde8e6af766fe9c03e086a948b96a790edba5c4a77037cd7828516a427947d"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/host-pthread"
+target = "//:pthread"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/preshing-turf"
+target = "//:turf"
+
+[lock."github.com/buckaroo-pm/host-pthread"]
+versions = [ "branch=master" ]
+revision = "a62519aa69c8e3243d6065fbf4c1d2de072f86f6"
+
+[lock."github.com/buckaroo-pm/preshing-turf"]
+versions = [ "branch=master" ]
+revision = "fa493eac1821d216ba06025e271bea6e2d2f2738"

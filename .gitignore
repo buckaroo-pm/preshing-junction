@@ -2,3 +2,8 @@
 CMakeLists.txt.user
 *~
 *.log
+.buckconfig.d
+.buckd
+buck-out
+buckaroo
+buckaroo_macros.bzl

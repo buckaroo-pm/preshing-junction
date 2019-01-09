@@ -1,0 +1,9 @@
+cxx_binary(
+  name = 'MapLinearizabilityTest',
+  srcs = glob([
+    '*.cpp',
+  ]),
+  deps = [
+    '//:junction',
+  ],
+)
